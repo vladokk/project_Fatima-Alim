@@ -568,4 +568,259 @@ nav#footer p{
 #footer i.fa:hover{
 	background: #FCAC45;
 	border-color: #FCAC45;
-	color: #ffffff;
+	color: #ffffff;}
+
+	.service h2 {
+    margin-bottom: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.service_left h2 {
+    max-width: 240px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+.service_left {
+    width: 380px;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.service_use li {
+    position: relative;
+    margin-bottom: 14px;
+    margin-left: 20px;
+    display: block;
+}
+
+.service_use li:before {
+    position: absolute;
+    left: -16px;
+    display: block;
+    content: "";
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    -webkit-transform: rotate(45deg) translateY(50%);
+    transform: rotate(45deg) translateY(50%);
+    background-color: black;
+}
+
+.service_right {
+    width: 460px;
+}
+.service_price {
+    width: 460px;
+}
+
+.service_right h2 {
+    max-width: 220px;
+    margin-bottom: 34px;
+}
+
+.service_price table, td {
+    width: 460px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.service_price table, td {
+    width: 460px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.service_price td:nth-child(1) {
+    padding-left: 18px;
+}
+
+.service_price td:nth-child(2) {
+    text-align: center;
+    width: 520px;
+    padding-left: 6px;
+}
+
+.service_price td {
+    height: 41px;
+}
+
+td, th {
+    padding: 0;
+}
+
+.full_info h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.service_about {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+}
+
+.full_info p {
+    width: 380px;
+    letter-spacing: -0.1px;
+}
+
+.full_info p:last-child {
+    width: 459px;
+    padding-right: 80px;
+    letter-spacing: 0.12px;
+}
+
+.main_footer {
+    background-color: #252525;
+    background-image: url(../img/footer_bg.jpg);
+    color: white;
+    padding-top: 56px;
+    padding-bottom: 37px;
+    line-height: 24px;
+    -webkit-box-shadow: inset 0px 25px 30px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 25px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer_layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer_contacts {
+    margin-right: 80px;
+    width: 320px;
+}
+
+.footer_contacts {
+    margin-right: 80px;
+    width: 320px;
+}
+
+.footer_copyright p, .footer_social p {
+    margin-bottom: 14px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.footer_social ul {
+    text-align: center;
+    font-size: 0;
+}
+
+.main_footer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_social li {
+    margin-right: 6px;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: -webkit-filter 0.5s;
+    transition: filter 0.5s;
+    transition: filter 0.5s, -webkit-filter 0.5s;
+}
+
+.footer_social li:hover {
+   filter:invert(100%);
+}
+
+.social_btn {
+    font-size: 0;
+    cursor: pointer;
+    background-color: black;
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+}
+
+.btn_fb {
+    background-image: url(../img/icon_fb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn_inst {
+    background-image: url(../img/icon_inst.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-left: auto;
+}
+
+.footer_copyright .btn{
+	color:white;
+	border-radius: 0;
+        -webkit-transition: -webkit-filter 0.5s;
+    transition: -webkit-filter 0.5s;
+    transition: filter 0.5s;
+    transition: filter 0.5s, -webkit-filter 0.5s;
+}
+
+.footer_copyright .btn:hover{
+    filter:invert(100%);
+}
+
+.btn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transition: color, background-color 0.5s;
+    transition: color, background-color 0.5s;
+    cursor: pointer;
+}
+
+.btn_vk {
+    background-image: url(../img/icon_vk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
